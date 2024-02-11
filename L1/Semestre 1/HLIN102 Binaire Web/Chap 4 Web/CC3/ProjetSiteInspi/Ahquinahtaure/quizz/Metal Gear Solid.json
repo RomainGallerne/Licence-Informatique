@@ -1,0 +1,226 @@
+{
+	"Theme": "Solid Snake",
+	"questions":
+	[
+		{
+			"question": "Qui est le rival éternel de Snake ?",
+			"reponses":
+			[
+				{
+					"choix": "Volgin",
+					"score": 0
+				},
+				{
+					"choix": "Raiden",
+					"score": 0
+				},
+				{
+					"choix": "Ocelot",
+					"score": 1
+				},
+				{
+					"choix": "Eva",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Qui est le personnage principal de Metal Gear Solid V : The Phantom Pain ?",
+			"reponses":
+			[
+				{
+					"choix": "Naked Snake",
+					"score": 0
+				},
+				{
+					"choix": "Big Boss",
+					"score": 0
+				},
+				{
+					"choix": "Venom Snake",
+					"score": 1
+				},
+				{
+					"choix": "Solid Snake",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le prénom de Solid Snake ?",
+			"reponses":
+			[
+				{
+					"choix": "David",
+					"score": 1
+				},
+				{
+					"choix": "José",
+					"score": 0
+				},
+				{
+					"choix": "Jhonny",
+					"score": 0
+				},
+				{
+					"choix": "Marc",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment Ocelot est-il devenu Liquid ?",
+			"reponses":
+			[
+				{
+					"choix": "Il s'est soumis à des séances d'électrochocs",
+					"score": 0
+				},
+				{
+					"choix": "Il s'est fait greffer son bras, qui a pris le dessus sur sa personnalité",
+					"score": 0
+				},
+				{
+					"choix": "Il l'était depuis le début",
+					"score": 0
+				},
+				{
+					"choix": "Il a fait plusieurs séances d'hypnose",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Pour Big Boss, lequel des trois frères était son clône parfait ?",
+			"reponses":
+			[
+				{
+					"choix": "Solid",
+					"score": 0
+				},
+				{
+					"choix": "Liquid",
+					"score": 0
+				},
+				{
+					"choix": "Aucun",
+					"score": 0
+				},
+				{
+					"choix": "Solidus",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Comment s'appellent les robots géants à deux pattes dans Metal Gear Solid IV ?",
+			"reponses":
+			[
+				{
+					"choix": "Gekko",
+					"score": 1
+				},
+				{
+					"choix": "Ga-Ko",
+					"score": 0
+				},
+				{
+					"choix": "Gato",
+					"score": 0
+				},
+				{
+					"choix": "TB-TT",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Qui est l'éditeur de Metal Gear Solid ?",
+			"reponses":
+			[
+				{
+					"choix": "Capcom",
+					"score": 0
+				},
+				{
+					"choix": "Sony",
+					"score": 0
+				},
+				{
+					"choix": "Sega",
+					"score": 0
+				},
+				{
+					"choix": "Konami",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Sur quelle console est sorti le tout premier jeux MGS ?",
+			"reponses":
+			[
+				{
+					"choix": "MSX",
+					"score": 1
+				},
+				{
+					"choix": "PSX",
+					"score": 0
+				},
+				{
+					"choix": "PS1",
+					"score": 0
+				},
+				{
+					"choix": "SNES",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quelle inscription retrouve-t-on sur le bras droit de The Boss ?",
+			"reponses":
+			[
+				{
+					"choix": "CTCP",
+					"score": 0
+				},
+				{
+					"choix": "CCCP",
+					"score": 1
+				},
+				{
+					"choix": "CCTP",
+					"score": 0
+				},
+				{
+					"choix": "CPCC",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est la meilleure méthode d'infiltration ?",
+			"reponses":
+			[
+				{
+					"choix": "L'attaque de front",
+					"score": 0
+				},
+				{
+					"choix": "Le silence absolu",
+					"score": 0
+				},
+				{
+					"choix": "Un carton pour se cacher",
+					"score": 1
+				},
+				{
+					"choix": "Des balles anesthésiantes",
+					"score": 0
+				}
+			]
+		}
+	]
+}

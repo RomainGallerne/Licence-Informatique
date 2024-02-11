@@ -1,0 +1,226 @@
+{
+	"Theme": "Portal",
+	"questions":
+	[
+		{
+			"question": "Comment s'appelle l'ordinateur qui guide le joueur tout au long du jeu ?",
+			"reponses":
+			[
+				{
+					"choix": "AperDisk",
+					"score": 0
+				},
+				{
+					"choix": "Glados",
+					"score": 1
+				},
+				{
+					"choix": "Project0885",
+					"score": 0
+				},
+				{
+					"choix": "Weathley",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Que l'ordinateur promet-il à la fin des tests de Portal 1 ?",
+			"reponses":
+			[
+				{
+					"choix": "Du gâteau",
+					"score": 1
+				},
+				{
+					"choix": "De relâcher le personnage principal",
+					"score": 0
+				},
+				{
+					"choix": "Une fête d'anniversaire avec des confettis",
+					"score": 0
+				},
+				{
+					"choix": "La mort du personnage principal",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment se nomme le personnage principal de Portal ?",
+			"reponses":
+			[
+				{
+					"choix": "Cave Johnson",
+					"score": 0
+				},
+				{
+					"choix": "Carl Johnson",
+					"score": 0
+				},
+				{
+					"choix": "Chell Johnson",
+					"score": 1
+				},
+				{
+					"choix": "Shell Johanson",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment Chell se retrouve t-elle dans le Centre d'enrichissement ?",
+			"reponses":
+			[
+				{
+					"choix": "Elle s'est portée volontaire",
+					"score": 0
+				},
+				{
+					"choix": "Elle a été kidnappée",
+					"score": 0
+				},
+				{
+					"choix": "Par hazard",
+					"score": 0
+				},
+				{
+					"choix": "Elle a participé au programme Emmenez votre fille au bureau car son père y travaille",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "De quoi GLaDOS envahit-elle le centre à la fin du premier opus ?",
+			"reponses":
+			[
+				{
+					"choix": "D'eau",
+					"score": 0
+				},
+				{
+					"choix": "De lave",
+					"score": 0
+				},
+				{
+					"choix": "D'une neurotoxine mortelle",
+					"score": 1
+				},
+				{
+					"choix": "De laser",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Où se trouve le personnage principal au début de Portal 2 ?",
+			"reponses":
+			[
+				{
+					"choix": "Dans un lit",
+					"score": 1
+				},
+				{
+					"choix": "Par terre",
+					"score": 0
+				},
+				{
+					"choix": "Dans un caisson de relaxation",
+					"score": 1
+				},
+				{
+					"choix": "Dans une salle de test",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le nom de la société où se déroule le jeu ?",
+			"reponses":
+			[
+				{
+					"choix": "Black Mesa",
+					"score": 0
+				},
+				{
+					"choix": "Nikon",
+					"score": 0
+				},
+				{
+					"choix": "Apple",
+					"score": 0
+				},
+				{
+					"choix": "Aperture Science",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quel est le nom de l'ennemi de cette société ?",
+			"reponses":
+			[
+				{
+					"choix": "Black Mesa",
+					"score": 1
+				},
+				{
+					"choix": "Nikon",
+					"score": 0
+				},
+				{
+					"choix": "Aperture Science",
+					"score": 0
+				},
+				{
+					"choix": "Samsung",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Que se passe-t-il à la fin de Portal 1 ?",
+			"reponses":
+			[
+				{
+					"choix": "No Spoil !",
+					"score": 0
+				},
+				{
+					"choix": "Le personnage principal meurt",
+					"score": 0
+				},
+				{
+					"choix": "Le personnage principal se retrouve en dehors des laboratoires",
+					"score": 0
+				},
+				{
+					"choix": "Le personnage principal se retrouve en confrontation avec son ennemie",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Que se passe-t-il à la fin de Portal 2 ?",
+			"reponses":
+			[
+				{
+					"choix": "No Spoil !",
+					"score": 0
+				},
+				{
+					"choix": "L'ennemie du personnage principal la laisse partir",
+					"score": 1
+				},
+				{
+					"choix": "Le personnage principal meurt",
+					"score": 0
+				},
+				{
+					"choix": "L'ennemie du personnage principal meurt",
+					"score": 0
+				}
+			]
+		}
+	]
+}

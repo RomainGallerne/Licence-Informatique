@@ -1,0 +1,108 @@
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Test de personnalité</title>
+		<link rel="stylesheet" href="design.css"/>
+		<link rel="shortcut icon" href="icone.png"/>
+	</head>
+	<body id="body">
+		<div class="content">
+			<div class="box">
+				<div class="menu">
+	  				<a href="accueil & liste.html">Ahquinahtaure</a>
+	  				<a class="active" href="quizz.html">Faire le Quizz !</a>
+	  				<a href="contact.html">Nous contacter</a>
+				</div>
+				<br>
+				<h2 style="text-align: center;"> Le but du jeu est de donner le plus de caractéristiques possible du personnage !</h2>
+				<div style="
+					position: fixed;
+					bottom:200px;
+				    background:rgba(0,0,0,0.5);
+				    color:#f1f1f1;
+				    padding-left:25px;
+				    padding-top: 25px;
+					padding-right:20px;
+					padding-bottom:25px;
+				    margin-left: 25px;
+					margin-right: 25px;
+				    max-width: 320px;
+					">
+					<img id=IMGpersoRandom style="width:300px; height:300px;margin-left:0px;">
+					<div style="
+						background-color: rgba(0,0,0,0.7);
+						margin-left:5px;
+						margin-right:5px;">
+						<p id="perso" style="text-align:center;font-size: 35px;"></p>
+					</div>
+
+					<!-- Changer de Quizz -->
+					<h4 style="text-align: center;">Si vous souhaitez changer de quizz,<br> vous pouvez cliquer ici :</h4>
+					<a href="quizz.html" class="button" style="vertical-align:middle;width: 275px;"><span>Autre quizz aléatoire</span></a>
+
+<!--				// si jamais on fait une liste de perso avec descriptions vu nos références, voilà le code
+					<h4 style="text-align: center;">Si vous avez un trou de mémoire,<br> ils sont tous détaillés ici :</h4>
+					<a href="accueil & liste.html" class="button" style="vertical-align:middle;width: 275px;"><span>Liste des personnages</span></a>
+-->
+				</div>
+				<div class="Quizz">
+					<h1 style="
+						text-align:left;
+						font-family:Courier;
+						font-size: 35px;
+						background-color:black;
+						color:white;border:2px solid white;
+						min-height: 25px;"
+						>Quizz !</h1>
+					<div id="questionnaire"></div>
+				</div>
+			</div>
+		</div>
+		<script src="jquery.js"></script>
+		<script>
+
+			//index des personnages
+			var quizz = ["Geralt","Link","Mario","GTA","TES","Pokemon","Metal Gear Solid","Kirby","Portal","FarCry"];
+
+			//Fonction d'affichage du questionnaire
+			function QuizzRandom(){
+				var persoRandom = quizz[Math.floor(Math.random()*quizz.length)]
+
+				//Affichage de l'image du personnage
+				$("#IMGpersoRandom").attr("src","persos/"+persoRandom+".png");
+
+				//Affichage du nom du personage
+				document.getElementById("perso").innerHTML = persoRandom ;
+
+				//Affichage du quizz
+				var JSONquizzRandom = "quizz/"+persoRandom+".json"
+				$.getJSON(JSONquizzRandom, function(data) {
+					var html = "<div>";
+					$.each(data['questions'], function(i,v) {
+						html += "<br>" + "<li style='font-size:20px;'>" + v.question + "</li>";
+						$.each(v.reponses, function(j,w) {
+							id = i + "-" + j;
+							html += "<dd>" + '<input type="radio" id="' + id + '" name="' + v.question + '" value="' + w.score + '"/>';
+							html += '<label for="' + id + '">' + w.choix + '</label>' + '<br>';
+						});
+					});
+					html+= "<br>" + "<br>" + "<button onclick='calculScore()' class='button' style='vertical-align:middle; width:250px;'><span>Voir mon score</span></button></div>"
+					$('#questionnaire').append(html);
+				});
+			}
+
+			//Calculer le score
+			function calculScore(){
+				var score = 0;
+				$("input[type=radio]:checked").each(
+					function(){
+					score = score + parseInt($(this).attr('value'));
+				})
+				alert("Ton score total est de "+score+" sur 10 !");
+			}
+
+			//Ecrire le nom du perso
+			$(document).ready(QuizzRandom);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+{
+	"Theme": "James Bond",
+	"questions": 
+	[
+		{
+			"question": "A quelle date est sorti le film Casino Royale ?",
+			"reponses": 
+			[
+				{
+					"choix": "1954",
+					"score": 5
+				},
+				{	
+					"choix": "2004",
+					"score": -5
+				},
+				{
+					"choix": "2006",
+					"score": 5
+				}
+			]
+		},
+		{
+			"question": "Quelle boisson alcoolisée James boit-il le plus ?",
+			"reponses": 
+			[
+				{
+					"choix": "Du whisky",
+						"score": 5
+				},
+				{	
+					"choix": "Des Vodka-Martini",
+					"score": -3
+				},
+				{
+					"choix": "Du saké",
+					"score": -1
+				}
+			]
+		},
+		{
+			"question": "Quelle voiture James Bond conduit dans Skyfall ?",
+			"reponses": 
+			[
+				{
+					"choix": "BMW Z8",
+						"score": -3
+				},
+				{	
+					"choix": "Aston Martin DB5",
+					"score": 5
+				},
+				{
+					"choix": "Mercedes-Benz Classe S",
+					"score": -1
+				}
+			]	
+		}
+	]
+}

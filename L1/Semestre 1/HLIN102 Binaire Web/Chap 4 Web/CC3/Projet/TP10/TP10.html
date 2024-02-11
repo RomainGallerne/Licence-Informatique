@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF8" />
+		<script src="jquery.js" type="text/javascript"></script>
+		<script>
+			$.ready(function(){
+				$.getJSON("quizz.json", function(data) {
+					var html = "<form action='correction2.php'>";
+					$.each(data['questions'], function(i) {
+						html += "<li>" + data['questions'][i].question+"</li>";
+						$.each(data['questions'][i].reponses, function(j) {
+							html += data['questions'][i].reponses[j].choix;
+							html += "<input type='radio' value='"+data['questions'][i].reponses[j].score+"' name='"+i+"'/>";
+							html += "<br>";
+						});
+					});
+					html+="<input type='submit' value='Score!'></form>"
+					$('body').append(html);
+				});
+			});
+		
+			function calculScore(){
+				var score = 0;
+				$("input[type=radio]:checked").each(
+					function(){
+					score = score + parseInt($(this).attr('value'));
+				})
+				alert("Ton score total est de "+score+" !");
+			}
+		</script>
+	</head>
+
+	<body>
+	</body>
+</html>

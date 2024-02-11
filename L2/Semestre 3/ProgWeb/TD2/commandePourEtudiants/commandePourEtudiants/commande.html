@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Commande</title>
+  <style>
+    header {
+      background-color:rgba(255,255,255,.5);
+    }
+    .carousel-item {
+      height:100px;
+    }
+    .carousel-item img {
+      height:100px;
+    }
+  </style>
+</head>
+
+<body> 
+<div class="container-fluid m-1 "></div>
+<form method="GET" action="facture_old.php">
+<header class="row">
+  <h1 class="col-sm-6 text-center align-self-center">Hard Discounter<small class="text-muted"> Votre magasin en ligne</small></h1>
+
+  <div id="carousel" class="carousel slide col-sm-6 align-self-center" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> 
+        <img src="img/archos.jpg" alt="archos">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/asus.jpg" alt="asus">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/lenovo.jpg" alt="lenovo">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/samsung.jpg" alt="samsung">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/maxcom.jpeg" alt="maxcom">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/iphone.jpg" alt="iphone">
+      </div>
+    </div>
+  </div>
+</header>
+<hr>
+<div class="row">
+  <nav class="col-sm-3">
+    <h2 class="text-center">Rayons</h2>
+    <ul>
+    <li><a href="#portables">PC portables</a></li>
+    <li><a href="#tablettes">Tablettes</a></li>
+    <li><a href="#téléphone">Téléphone portables</a></li>
+    </ul>
+    <button type="submit" name="commander" class="btn btn-primary m-3">
+      Commander !
+    </button>
+  </nav>
+  <div class="col-sm-9">
+    <h2 class="text-center">Saisissez vos quantités d'articles puis Commandez !</h2>
+ 
+      <a id="portables"><h2>Portables</h2></a>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="lenovo" min="0" step="1" class="form-control"
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/lenovo.jpg" alt="PC portable Lenovo" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">PC portable Lenovo<br>499.99€</div>
+        <div class="col-sm-5 align-self-center">Processeur : AMD Athlon Silver 3050U / 2.3 GHz
+            RAM : 8 Go (1 x 4 Go + 4 Go (soudé))
+            Résolution : 1600 x 900 (HD+) </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="asus" min="0" step="1" class="form-control" 
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/asus.jpg" alt="PC portable ASUS" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">PC portable ASUS<br>579.99€</div>
+        <div class="col-sm-5 align-self-center">Processeur : AMD Ryzen 3 3200U / 2.6 GHz
+          RAM : 8 Go (1 x 4 Go + 4 Go (soudé))
+          Résolution : 1600 x 900 (HD+)  </div>
+      </div>
+      <hr>
+      <a id="tablettes"><h2>Tablettes</h2></a>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="samsung" min="0" step="1" class="form-control" 
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/samsung.jpg" alt="Tablette Samsung" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">Tablette Samsung<br>215.19€</div>
+        <div class="col-sm-5 align-self-center">10.1" TFT - rétroéclairage par LED - 1920 x 1200 (224 ppi)
+          Système d'exploitation : Android 9.0 (Pie)
+          RAM : 2 Go - LPDDR4 SDRAM
+          Stockage : 32 Go</div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="archos" min="0" step="1" class="form-control"
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/archos.jpg" alt="Tablette Archos" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">Tablette Archos<br>99.99€</div>
+        <div class="col-sm-5 align-self-center">10.1" IPS TFT - 1280 x 800
+          3G
+          Système d'exploitation : Android 8.1 (Oreo) Go Edition
+          RAM : 1 Go - LPDDR3 SDRAM
+          Stockage : 32 Go </div>
+      </div>
+      <hr>
+      <a id="téléphone"><h2>Téléphone portable</h2></a>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="maxcom" min="0" step="1" class="form-control" 
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/maxcom.jpeg" alt="Téléphone maxcom" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">Téléphone Maxcom<br>2015.19€</div>
+        <div class="col-sm-5 align-self-center">10.1" TFT - rétroéclairage par LED - 1920 x 1200 (224 ppi)
+          Système d'exploitation : Android 19.0 (Pie)
+          RAM : 2 Go - LPDDR4 SDRAM
+          Stockage : 3200 Go</div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-2 align-self-center"><input type="number" name="iphone" min="0" step="1" class="form-control"
+          placeholder="Quantité"></div>
+        <div class="col-sm-3 align-self-center"><img src="img/iphone.jpg" alt="Tablette Archos" class="img-fluid"></div>
+        <div class="col-sm-2 align-self-center">Télpéhone iphone<br>9.99€</div>
+        <div class="col-sm-5 align-self-center">10.1" IPS TFT - 1280 x 800
+          3G
+          Système d'exploitation : Android 8.1 (Oreo) Go Edition
+          RAM : 1 Go - LPDDR3 SDRAM
+          Stockage : 0.1 Go </div>
+      </div>
+      <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col text-center">
+    <button type="submit" name="commander" class="btn btn-primary">Commander !</button>
+  </div>
+</div>
+
+</form>
+</div>
+<script> $('.carousel').carousel({ interval: 1500 })
+</script>
+</body>
+</html>

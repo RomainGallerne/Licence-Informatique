@@ -1,0 +1,69 @@
+Check "definition" : Permet d'afficher la définition d'une tactique
+Print "definition" : Permet d'afficher en détail une relation
+Eval compute in "tactique data" : Affiche le résultat dans la console
+
+-Définitions--------------------------------------------------------------------------------------
+
+Inductive "nom" : nat -> nat -> Prop := (définit une relation inductive de type NxN->bool)
+
+Goal "Predicat" : Définit un objectif à démontrer
+
+Definition "nom" (n:nat):bool := (définit une tactique prennant en entrée un nat et en sortiant un bool
+
+Fixpoint "nom" (n:nat)(l:list nat):list nat := (définit une fonction sur n et l rendant une liste
+
+Lemma "nom" : forall (x1 x2:nat)(l : list nat), f(x1::x2::l)(x2::x1::l) : Définit un lemme qui doit être démontré et pourra être réutilisé
+
+-Règles--------------------------------------------------------------------------------------
+
+assumption
+	Lorsque une hypothèse = la thèse
+	(ax)
+	
+induction n
+	Démarre une preuve par induction sur n
+	
+intro(s)
+	Passe les "pour tout" et les implique en hypothèses
+	(PourTout droite, => droite)
+	
+rewrite
+	rewrite "Hypothèse" : Dans la partie droite, remplace le therme gauche de l'hypothèse par le therme droit
+	rewrite <- "Hypothèse" : Dans la partie droite, remplace le therme droit de l'hypothèse par le therme gauche
+	rewrite (<-) "Lemme" : Même usage qu'avec une hypothèse
+	
+simpl
+	Effectue les opérations mathématiques
+	Remplace une formule fixpoint par sa définition
+	
+lia
+	Fait des déduction arithmétique à partir des hypothèses
+	
+reflexivity
+	Lorsque la partie de droite est de la forme x=x
+
+elim
+	Permet de supposer un élément vrai, on cherche alors comment il peut l'être et on doit prouver la condition à laquelle il l'est
+	(<=> gauche, /\ gauche, \/ gauche, IlExisite gauche
+	
+apply
+	Permet d'appliquer une règle précédemment établi
+	(=> gauche, PourTout gauche)
+	
+auto
+	Permet de conclure lorsque une hypothèse se résume à Faux ou que la thèse se résume à Vrai
+	(Faux gauche, Vrai droite)
+	
+split
+	Permet de séparer les <=> et les &
+	( <=> droite, /\ droite)
+	
+	
+exists
+	(IlExisite droite)
+	
+left
+	(\/ gauche)
+	
+right
+	(\/ droite)

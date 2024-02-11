@@ -1,0 +1,226 @@
+{
+	"Theme": "Geralt",
+	"questions":
+	[
+		{
+			"question": "Quel nom lui a refusé Vesemir ?",
+			"reponses":
+			[
+				{
+					"choix": "Geralt Roger Eric du Haute-Bellegarde",
+					"score": 1
+				},
+				{
+					"choix": "Ravix de Quatrecorne",
+					"score": 0
+				},
+				{
+					"choix": "Gwynbleidd",
+					"score": 0
+				},
+				{
+					"choix": "Le boucher de Blaviken",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "De quelle nationalité sont les développeurs de la série The Witcher ?",
+			"reponses":
+			[
+				{
+					"choix": "Albannais",
+					"score": 0
+				},
+				{
+					"choix": "Polonais",
+					"score": 1
+				},
+				{
+					"choix": "Russes",
+					"score": 0
+				},
+				{
+					"choix": "Ukrainiens",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Qui n'est pas l'ami de Geralt ?",
+			"reponses":
+			[
+				{
+					"choix": "Lambert",
+					"score": 0
+				},
+				{
+					"choix": "Vesemir",
+					"score": 0
+				},
+				{
+					"choix": "Eskel",
+					"score": 0
+				},
+				{
+					"choix": "Ciri",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Qui a adoubé Geralt chevalier ?",
+			"reponses":
+			[
+				{
+					"choix": "Vesemir",
+					"score": 0
+				},
+				{
+					"choix": "Le Roi Foltest de Temeria",
+					"score": 0
+				},
+				{
+					"choix": "Meve Reine de Lyria et de Rivia",
+					"score": 1
+				},
+				{
+					"choix": "Henselt Roi de Kaedirn",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le conte qui n'est pas présent dans The Witcher ?",
+			"reponses":
+			[
+				{
+					"choix": "La Belle et la Bête",
+					"score": 0
+				},
+				{
+					"choix": "Le Petit Chaperon Rouge",
+					"score": 0
+				},
+				{
+					"choix": "Raiponce",
+					"score": 0
+				},
+				{
+					"choix": "La Petite Sirène",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quel est l'animal qu'il ne faut surtout pas tuer ?",
+			"reponses":
+			[
+				{
+					"choix": "Les poules",
+					"score": 0
+				},
+				{
+					"choix": "Les vaches",
+					"score": 1
+				},
+				{
+					"choix": "Les chevaux",
+					"score": 0
+				},
+				{
+					"choix": "Les cocatrix",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Laquelle de ces épreuves ne fait pas partie de l'apprentissage de Sorceleur ?",
+			"reponses":
+			[
+				{
+					"choix": "L'épreuve du Choix",
+					"score": 0
+				},
+				{
+					"choix": "L'épreuve des Herbes",
+					"score": 0
+				},
+				{
+					"choix": "L'épreuve des Modifications",
+					"score": 0
+				},
+				{
+					"choix": "L'épreuve du Jugement",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "A quoi ne joue pas Geralt avec ses amis ?",
+			"reponses":
+			[
+				{
+					"choix": "Poker aux dés",
+					"score": 0
+				},
+				{
+					"choix": "Gwynt",
+					"score": 0
+				},
+				{
+					"choix": "Pugilat",
+					"score": 1
+				},
+				{
+					"choix": "Bras de fer",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Lequel de ces sort ne maîtrise pas Geralt ?",
+			"reponses":
+			[
+				{
+					"choix": "Qwen",
+					"score": 0
+				},
+				{
+					"choix": "Igni",
+					"score": 0
+				},
+				{
+					"choix": "Yrven",
+					"score": 0
+				},
+				{
+					"choix": "Gwynt",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Triss ou Yennefer ?",
+			"reponses":
+			[
+				{
+					"choix": "Triss",
+					"score": 1
+				},
+				{
+					"choix": "Triss et Yennefer",
+					"score": -1
+				},
+				{
+					"choix": "Yennefer",
+					"score": 1
+				},
+				{
+					"choix": "Les Moires",
+					"score": -2
+				}
+			]
+		}
+	]
+}

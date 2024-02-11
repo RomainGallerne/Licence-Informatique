@@ -1,0 +1,74 @@
+1) Quel est le nom de la ville dans laquel le capitaine Bard tua le dragon Smaug ? 1 pt
+	{Entrée de texte}
+	/Esgaroth\
+	
+	
+2) Quel titre Gandalf a-t-il porté ? 1 pt
+	{Choix multiples}     /Le Gris\ /Le Blanc\
+		- Le Mage
+		- Le Blanc
+		- Le Clair
+		- Le Pourpre
+		- Le Gris
+		- Le Grand
+	
+	
+3) Quel est le principale point faible d'un troll ? 1 pt
+	{Saisie déroulante}     /le soleil\
+	- Ses pieds
+	- Le bruit
+	- Les beaux poèmes
+	- Les abeilles
+	- Le soleil
+	
+	
+4) Quel créature fantastique n'existe pas dans l'univers du Seigneur des Anneaux ? 1 pt
+	{Saisie déroulante} 		/Kraken\
+		- Les Dragons ?
+		- Les Kraken ?
+		- Les Orcs ?
+		- Les Araingées Géantes ?
+		- Les Loups Garous ?
+		
+5) Combien existe-t-il d'anneaux et à qui sont-ils destinés ? 1 pt
+	{saisie de nombre} /20\
+		
+6) Quel est le nom de la créature qui détient l'anneau unique au début du Hobbit ? 1 pt
+	{Choix unique}    /Gollum\
+		- Gollem
+		- Gollam
+		- Gollum
+		- Gillum
+		- Gillem
+		- Gillum
+		
+7) En quel année est sortie le film "Le Seigneur des anneaux : La Communauté de l'anneau" ? 1 pt
+	{Choix d'année}   /2001\
+	
+8) Une inscription est gravé sur l'anneau unique, quel est-elle ? 1 pt
+	{Choix unique}      /Un anneau pour les gouverner tous. Un anneau pour les trouver. Un anneau pour les amener tous et dans les ténèbres les lier.\
+	- Un anneau de voleur. Un anneau de brigand, de traitre. Un anneau pour les trouver et les égorger.
+	- Un anneau salavateur. Un anneau pour les délivrer, les sauver et pour tous les protéger.
+	- Un anneau pour les gouverner tous. Un anneau pour les trouver. Un anneau pour les amener tous et dans les ténèbres les lier.
+	- Un anneau de ténèbres. Un anneau de pouvoir. Un anneau pour éradiquer mes ennemis. 
+	
+9) la majorité des aventures de Tolkien se passe dans la Terre... 1 pt
+	{Saisie déroulante}   /du Milieur\
+	- du Nord
+	- du Sud
+	- de l'Est
+	- de l'Ouest
+	- du Milieu
+	
+10) Quel est l'arme de prédiléction de Légolas ? 1 pt
+	{Choix unique}     /Un arc\
+	- Une épée
+	- Une arbalète
+	- Un fusil à pompe
+	- Un sabre laser
+	- Un arc
+	- Une hache de guerre
+	- Une mitralleurse lourde
+	
+	
+Total : /10 pts

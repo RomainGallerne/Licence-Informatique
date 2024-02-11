@@ -1,0 +1,226 @@
+{
+	"Theme": "Mario",
+	"questions":
+	[
+		{
+			"question": "Quelle est l'année de sortie du premier jeu Mario ?",
+			"reponses":
+			[
+				{
+					"choix": "1985",
+					"score": 1
+				},
+				{
+					"choix": "1989",
+					"score": 0
+				},
+				{
+					"choix": "1983",
+					"score": 0
+				},
+				{
+					"choix": "1990",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Sur quelle console le premier Super Mario Bros est-il sorti ?",
+			"reponses":
+			[
+				{
+					"choix": "NINTENDO 64",
+					"score": 0
+				},
+				{
+					"choix": "GAME BOY",
+					"score": 0
+				},
+				{
+					"choix": "ATARY",
+					"score": 0
+				},
+				{
+					"choix": "NES",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Combien de tailles Mario dispose-t-il dans la saga des Super Mario Bros ?",
+			"reponses":
+			[
+				{
+					"choix": "4",
+					"score": 0
+				},
+				{
+					"choix": "5",
+					"score": 1
+				},
+				{
+					"choix": "3",
+					"score": 0
+				},
+				{
+					"choix": "2",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est son métier ?",
+			"reponses":
+			[
+				{
+					"choix": "Livreur de pizzas",
+					"score": 0
+				},
+				{
+					"choix": "Plombier",
+					"score": 1
+				},
+				{
+					"choix": "Jardinier",
+					"score": 1
+				},
+				{
+					"choix": "Charpentier",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Comment s'appelle son pire ennemi ?",
+			"reponses":
+			[
+				{
+					"choix": "Bowser",
+					"score": 1
+				},
+				{
+					"choix": "Browser",
+					"score": 0
+				},
+				{
+					"choix": "Brother",
+					"score": 0
+				},
+				{
+					"choix": "Bowther",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le jeu Nintendo le plus vendu de l'histoire ?",
+			"reponses":
+			[
+				{
+					"choix": "Wii Sport",
+					"score": 1
+				},
+				{
+					"choix": "Super Mario Bros",
+					"score": 0
+				},
+				{
+					"choix": "Mario Sunshine",
+					"score": 0
+				},
+				{
+					"choix": "Super Mario 64",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Lequel de ces jeux ne possède pas Mario comme personnage jouable ?",
+			"reponses":
+			[
+				{
+					"choix": "Luigi's Mansion",
+					"score": 1
+				},
+				{
+					"choix": "Paper Mario",
+					"score": 0
+				},
+				{
+					"choix": "Mario et Luigi voyagent au centre de Bowser",
+					"score": 0
+				},
+				{
+					"choix": "Smash Bros Brawl",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Lequel de ces personnages n'a jamais existé ?",
+			"reponses":
+			[
+				{
+					"choix": "Métal Mario",
+					"score": 0
+				},
+				{
+					"choix": "Mario du futur",
+					"score": 1
+				},
+				{
+					"choix": "Wario",
+					"score": 0
+				},
+				{
+					"choix": "Dr. Mario",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quelle est le circuit qui n'existe pas dans Mario Kart ?",
+			"reponses":
+			[
+				{
+					"choix": "Château Bowser",
+					"score": 0
+				},
+				{
+					"choix": "Route Arc-en-Ciel",
+					"score": 0
+				},
+				{
+					"choix": "Park Baby",
+					"score": 0
+				},
+				{
+					"choix": "Plage Cheap Cheap",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quel objet n'a jamais existé dans un Super Mario Bros ?",
+			"reponses":
+			[
+				{
+					"choix": "Le champignon",
+					"score": 0
+				},
+				{
+					"choix": "L'étoile",
+					"score": 0
+				},
+				{
+					"choix": "La banane",
+					"score": 1
+				},
+				{
+					"choix": "La feuille",
+					"score": 0
+				}
+			]
+		}
+	]
+}

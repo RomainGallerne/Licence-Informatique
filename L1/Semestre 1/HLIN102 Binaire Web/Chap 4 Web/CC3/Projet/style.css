@@ -1,0 +1,196 @@
+@font-face {
+    font-family: hack;
+    src: url(Hack-Regular.ttf);
+	}
+
+@font-face {
+    font-family: hack;
+    src: url(Hack-Bold.ttf);
+	font-weight: bold;
+	}
+
+body{
+	background-image: url("accueil.images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family : hack;
+	}
+
+
+h1{
+	color : white;
+	font-weight: bold; 
+	text-align: center; 
+	font-size: 4em;
+	height: 30px;
+  -webkit-text-stroke : 2px;
+	-webkit-text-stroke-color: black;
+	}	
+	
+h2{
+	color: white;
+	text-align: center; 
+	font-size: 3em;
+	height: 2em; 
+  -webkit-text-stroke : 2px;
+	-webkit-text-stroke-color: black;
+	}
+
+#menu{
+	width: 100%;
+	display: block;
+	border: 3px solid black;
+	background-color: rgb(100, 100, 130);
+	}
+	
+#mainbox{
+	width: 100%;
+	height: 42em;
+	}
+
+#boxLotR{
+  text-decoration: none;
+	transition: 0.5s;
+	display: block;
+	float : left;
+	width: 32%;
+	height: 40em;
+	text-align : center;
+	margin-left: 10%;
+	border: 3px solid black;
+	cursor: pointer;
+	background-color: darkgrey;
+	background-image: url("accueil.images/LotR_background_menu.jpg");
+	background-size: cover;
+	}
+#boxLotR:hover{
+	margin-left: 9%;
+	width: 34%;
+	height: 42em;
+	margin-top: -1em;
+	}
+	
+	
+	
+#boxJVAnime{
+  text-decoration: none;
+	transition: 0.5s;
+	display: block;
+	float : right;
+	width: 32%;
+	height: 40em;
+	text-align : center;
+	margin-right: 10%;
+	border: 3px solid black;
+	cursor: pointer;
+	background-color: darkgrey; 
+	background-image: url("accueil.images/Anime_background_menu.jpg");
+	background-size: cover;
+	}
+#boxJVAnime:hover{
+	margin-right: 9%;
+	width: 34%;
+	height: 42em;
+	margin-top: -1em;
+	}
+	
+	
+	
+.button{	
+	background-color: rgb(100, 100, 100);
+	color: white;
+	text-decoration: none;
+	}
+.button:hover{
+	background-color: rgb(150, 150, 150);
+	border: 1px solid white;
+	transition: 0.4s;
+	}
+	
+#RG{
+	background-color: rgb(0, 0, 250);
+	color: white;
+	text-decoration: none;
+	
+	}
+#RG:hover{
+	background-color: rgb(10, 130, 255);
+	border: 1px solid white;
+	transition: 0.4s;
+	}
+	
+#PM{
+	background-color : rgb(0, 150, 0);
+	color: white;
+	text-decoration: none;
+	}
+#PM:hover{
+	background-color: rgb(20, 220, 50);
+	border: 1px solid white;
+	transition: 0.4s;
+	}
+	
+#IS{
+	background-color : rgb(190, 0, 0);
+	color: white;
+	text-decoration: none;
+	}
+#IS:hover{
+	background-color: rgb(255, 70, 70);
+	border: 1px solid white;
+	transition: 0.4s;
+	}
+	
+	
+#LotR_photo{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5em;
+	}
+	
+#JVA_photo{
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 5em;
+	}
+	
+	
+	
+.theme{
+	font-size : 4em;
+	font-weight : bold;
+	color : white;
+	-webkit-text-stroke : 2px;
+	-webkit-text-stroke-color: black;
+	}
+	
+.link {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-left: 2%;
+	margin-top: 10px;
+  margin-bottom: 10px;
+	transition: 1s;
+	padding: 10px;
+  cursor: pointer;
+	width: 8em;
+	border: 1px solid black;
+  }
+	
+.link {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-left: 2%;
+	margin-top: 10px;
+  margin-bottom: 10px;
+	transition: 1s;
+	padding: 10px;
+  cursor: pointer;
+	width: 8em;
+	border: 1px solid black;
+  }
+
+
+	

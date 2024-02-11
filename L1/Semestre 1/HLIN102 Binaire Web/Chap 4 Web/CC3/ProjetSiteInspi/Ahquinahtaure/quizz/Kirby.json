@@ -1,0 +1,226 @@
+{
+	"Theme": "Kirby",
+	"questions":
+	[
+		{
+			"question": "Kirby est-elle capable d'avaler et de copier les attaques de ses ennemis ?",
+			"reponses":
+			[
+				{
+					"choix": "Elle n'as pas de ventre, il ne peut donc pas avaler ses ennemis",
+					"score": 0
+				},
+				{
+					"choix": "Oui",
+					"score": 1
+				},
+				{
+					"choix": "Elle n'a pas d'ennemi",
+					"score": 0
+				},
+				{
+					"choix": "Non",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est l'ennemi juré de Kirby ?",
+			"reponses":
+			[
+				{
+					"choix": "Le roi Dadidou",
+					"score": 1
+				},
+				{
+					"choix": "Falala",
+					"score": 0
+				},
+				{
+					"choix": "Tiff",
+					"score": 0
+				},
+				{
+					"choix": "Meta Knight",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel jeu Kirby est le plus récent ?",
+			"reponses":
+			[
+				{
+					"choix": "Kirby Super Star Ultra",
+					"score": 0
+				},
+				{
+					"choix": "Kirby's Adventure Wii",
+					"score": 0
+				},
+				{
+					"choix": "Kirby : Planet Robobot",
+					"score": 1
+				},
+				{
+					"choix": "Kirby Star Allies",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Qui a créé Kirby ?",
+			"reponses":
+			[
+				{
+					"choix": "Masahiro Sakurai",
+					"score": 1
+				},
+				{
+					"choix": "Kabushiki Kaisha",
+					"score": 0
+				},
+				{
+					"choix": "Tatsumi Kimishima",
+					"score": 0
+				},
+				{
+					"choix": "Akira Toriyama",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Le premier jeu Kirby était sur :",
+			"reponses":
+			[
+				{
+					"choix": "Game Boy Advance",
+					"score": 0
+				},
+				{
+					"choix": "Nintendo 64",
+					"score": 0
+				},
+				{
+					"choix": "Game Boy",
+					"score": 1
+				},
+				{
+					"choix": "Game Cube",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Pourquoi Kirby était-elle obligée de rester à Dream Land ?",
+			"reponses":
+			[
+				{
+					"choix": "Parce que Kirby est restée collée au sol",
+					"score": 0
+				},
+				{
+					"choix": "Parce que le roi a empêché Kirby de quitter Dream Land",
+					"score": 0
+				},
+				{
+					"choix": "Parce qu'elle aime cet endroit",
+					"score": 0
+				},
+				{
+					"choix": "Parce qu'Esgargoon a tiré sur le vaisseau de Kirby",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Qui a sorti les Kirby ?",
+			"reponses":
+			[
+				{
+					"choix": "Capcom",
+					"score": 0
+				},
+				{
+					"choix": "Nintendo",
+					"score": 0
+				},
+				{
+					"choix": "Sega",
+					"score": 0
+				},
+				{
+					"choix": "Konami",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Avec quelle attaque Kirby peut-elle copier les dons de ses ennemis ?",
+			"reponses":
+			[
+				{
+					"choix": "Aspire tout",
+					"score": 1
+				},
+				{
+					"choix": "Combat",
+					"score": 0
+				},
+				{
+					"choix": "Parasol",
+					"score": 0
+				},
+				{
+					"choix": "Gobe-tout",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Laquelle de ces transformations n'existe pas ?",
+			"reponses":
+			[
+				{
+					"choix": "Micro",
+					"score": 0
+				},
+				{
+					"choix": "Torche",
+					"score": 0
+				},
+				{
+					"choix": "Super-saut",
+					"score": 0
+				},
+				{
+					"choix": "Bleu",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quel est la planette d'origine de Kirby ?",
+			"reponses":
+			[
+				{
+					"choix": "Pop Star",
+					"score": 1
+				},
+				{
+					"choix": "Royal Star",
+					"score": 0
+				},
+				{
+					"choix": "Maga Star",
+					"score": 0
+				},
+				{
+					"choix": "Epic Star",
+					"score": 0
+				}
+			]
+		}
+	]
+}

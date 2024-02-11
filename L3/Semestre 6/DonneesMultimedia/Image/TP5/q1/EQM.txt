@@ -1,0 +1,3 @@
+Nombre total de pixels de l'image : 65536
+Nombre de pixels différents : 63968
+Erreur quadratique moyenne : 15

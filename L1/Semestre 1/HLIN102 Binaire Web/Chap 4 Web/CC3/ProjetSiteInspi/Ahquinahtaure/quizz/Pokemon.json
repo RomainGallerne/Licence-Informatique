@@ -1,0 +1,226 @@
+{
+	"Theme": "Pokemon",
+	"questions":
+	[
+		{
+			"question": "Combien de générations de Pokémon existe-t-il à l'heure actuelle ?",
+			"reponses":
+			[
+				{
+					"choix": "7",
+					"score": 1
+				},
+				{
+					"choix": "6",
+					"score": 0
+				},
+				{
+					"choix": "5",
+					"score": 0
+				},
+				{
+					"choix": "4",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Combien de Pokémon compte la première génération ?",
+			"reponses":
+			[
+				{
+					"choix": "201",
+					"score": 0
+				},
+				{
+					"choix": "151",
+					"score": 1
+				},
+				{
+					"choix": "176",
+					"score": 0
+				},
+				{
+					"choix": "251",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le Pokemon n°151 ?",
+			"reponses":
+			[
+				{
+					"choix": "Mewtwo",
+					"score": 0
+				},
+				{
+					"choix": "Mew",
+					"score": 1
+				},
+				{
+					"choix": "Sulfura",
+					"score": 0
+				},
+				{
+					"choix": "Draco",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "En quelle année est sorti le tout premier jeu Pokémon ?",
+			"reponses":
+			[
+				{
+					"choix": "1995",
+					"score": 0
+				},
+				{
+					"choix": "1997",
+					"score": 0
+				},
+				{
+					"choix": "1998",
+					"score": 0
+				},
+				{
+					"choix": "1996",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "En quoi évolue Carapuce ?",
+			"reponses":
+			[
+				{
+					"choix": "Carabaffe",
+					"score": 1
+				},
+				{
+					"choix": "Tortank",
+					"score": 0
+				},
+				{
+					"choix": "Torterra",
+					"score": 0
+				},
+				{
+					"choix": "Caratak",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le plus mauvais Pokémon ?",
+			"reponses":
+			[
+				{
+					"choix": "Pikachu",
+					"score": 0
+				},
+				{
+					"choix": "Munja",
+					"score": 0
+				},
+				{
+					"choix": "Ratatak",
+					"score": 0
+				},
+				{
+					"choix": "Magicarpe",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Il existe trois types de starters Pokémon, lequels ?",
+			"reponses":
+			[
+				{
+					"choix": "Feu, glace, plante",
+					"score": 0
+				},
+				{
+					"choix": "Feu, roche, eau",
+					"score": 0
+				},
+				{
+					"choix": "Eau, feu, plante",
+					"score": 1
+				},
+				{
+					"choix": "Normal, plante, spectre",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Lequel de ces types de Pokémon n'existe pas ?",
+			"reponses":
+			[
+				{
+					"choix": "Combat",
+					"score": 0
+				},
+				{
+					"choix": "Fée",
+					"score": 0
+				},
+				{
+					"choix": "Vent",
+					"score": 1
+				},
+				{
+					"choix": "Dragon",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Que répète constamment un Pokémon ?",
+			"reponses":
+			[
+				{
+					"choix": "Le cri de l'animal auquel il ressemble",
+					"score": 0
+				},
+				{
+					"choix": "Il ne dit rien",
+					"score": 0
+				},
+				{
+					"choix": "Son surnom",
+					"score": 0
+				},
+				{
+					"choix": "Son nom",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quel moyen est le plus efficace pour attraper un Pokémon ?",
+			"reponses":
+			[
+				{
+					"choix": "Endormir le Pokemon",
+					"score": 0
+				},
+				{
+					"choix": "Utiliser une Master Ball",
+					"score": 1
+				},
+				{
+					"choix": "Se jeter sur lui",
+					"score": 0
+				},
+				{
+					"choix": "Le mettre KO",
+					"score": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+h1
+{
+	text-align: center;
+	color: red;
+	text-decoration: underline;
+}
+
+h2
+{
+	text-align: left;
+	color: red;
+	text-decoration: underline;
+	font-size: medium;
+}
+strong
+{
+	text-decoration: underline;
+}

@@ -1,0 +1,226 @@
+{
+	"Theme": "Link",
+	"questions":
+	[
+		{
+			"question": "Que n'est pas Link ?",
+			"reponses":
+			[
+				{
+					"choix": "Une princesse",
+					"score": 1
+				},
+				{
+					"choix": "Un cheminot",
+					"score": 0
+				},
+				{
+					"choix": "Un Kokiri",
+					"score": 0
+				},
+				{
+					"choix": "Un postier",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le dernier jeu avec Link sorti à ce jour ?",
+			"reponses":
+			[
+				{
+					"choix": "The Legend of Zelda : Breath of the Wild",
+					"score": 0
+				},
+				{
+					"choix": "Super Smash Bros : Ultimate",
+					"score": 1
+				},
+				{
+					"choix": "The Legend of Zelda : A Link to the Past",
+					"score": 0
+				},
+				{
+					"choix": "The Legend of Zelda : Majora's Mask Remaster",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment se déplace le plus rapidement Link ?",
+			"reponses":
+			[
+				{
+					"choix": "En faisant des roulades",
+					"score": 0
+				},
+				{
+					"choix": "En marchant à reculons",
+					"score": 0
+				},
+				{
+					"choix": "En faisant des saltos arrière",
+					"score": 1
+				},
+				{
+					"choix": "En courant",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est son pire ennemi ?",
+			"reponses":
+			[
+				{
+					"choix": "Ganondorf",
+					"score": 1
+				},
+				{
+					"choix": "Ganon",
+					"score": 0
+				},
+				{
+					"choix": "L'Arbre Mojo",
+					"score": 0
+				},
+				{
+					"choix": "Anubis",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le nom de sa fée ?",
+			"reponses":
+			[
+				{
+					"choix": "Navi",
+					"score": 1
+				},
+				{
+					"choix": "Na'vi",
+					"score": 0
+				},
+				{
+					"choix": "Nawy",
+					"score": 0
+				},
+				{
+					"choix": "Navy",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le Zelda où on revient un jour en arrière ?",
+			"reponses":
+			[
+				{
+					"choix": "A Link to the Past",
+					"score": 0
+				},
+				{
+					"choix": "Majora's Mask",
+					"score": 1
+				},
+				{
+					"choix": "Ocarina of Time",
+					"score": 0
+				},
+				{
+					"choix": "The Wind Waker",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment s'appelle le cheval de Link ?",
+			"reponses":
+			[
+				{
+					"choix": "Epona",
+					"score": 1
+				},
+				{
+					"choix": "Ipona",
+					"score": 0
+				},
+				{
+					"choix": "Ablette",
+					"score": 0
+				},
+				{
+					"choix": "Ponny",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Qui aide le moins Link ?",
+			"reponses":
+			[
+				{
+					"choix": "Kaepora Gaebora",
+					"score": 0
+				},
+				{
+					"choix": "Rauru",
+					"score": 0
+				},
+				{
+					"choix": "La fée",
+					"score": 0
+				},
+				{
+					"choix": "La princesse Zelda",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quelle est la couleur d'origine de Link ?",
+			"reponses":
+			[
+				{
+					"choix": "Vert et Bleu",
+					"score": 0
+				},
+				{
+					"choix": "Vert",
+					"score": 0
+				},
+				{
+					"choix": "Noir et Blanc",
+					"score": 1
+				},
+				{
+					"choix": "Rouge et vert",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quelle est la monnaie du royaume d'Hyrule ?",
+			"reponses":
+			[
+				{
+					"choix": "La pièce d'or",
+					"score": 0
+				},
+				{
+					"choix": "Le Franc",
+					"score": 0
+				},
+				{
+					"choix": "Le Rubis",
+					"score": 1
+				},
+				{
+					"choix": "Les diamands",
+					"score": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,226 @@
+{
+	"Theme": "Farcry",
+	"questions":
+	[
+		{
+			"question": "Comment se nomme le personnage principal de Farcry 3 ?",
+			"reponses":
+			[
+				{
+					"choix": "Vaas",
+					"score": 0
+				},
+				{
+					"choix": "Citra",
+					"score": 0
+				},
+				{
+					"choix": "Jason",
+					"score": 1
+				},
+				{
+					"choix": "Liza",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment se nomme l'ennemi dans Farcry 3 ?",
+			"reponses":
+			[
+				{
+					"choix": "Vaas Montenegro",
+					"score": 1
+				},
+				{
+					"choix": "Vaas Montemego",
+					"score": 0
+				},
+				{
+					"choix": "Citra",
+					"score": 0
+				},
+				{
+					"choix": "Jason",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel est le lien entre Vaas et Citra ?",
+			"reponses":
+			[
+				{
+					"choix": "Ils sont en couple",
+					"score": 0
+				},
+				{
+					"choix": "Ils ont eu un enfant",
+					"score": 0
+				},
+				{
+					"choix": "Ils sont frère et soeur",
+					"score": 1
+				},
+				{
+					"choix": "Ils sont séparés",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Vaas incarne la définition de :",
+			"reponses":
+			[
+				{
+					"choix": "La torture",
+					"score": 0
+				},
+				{
+					"choix": "La barbarie",
+					"score": 0
+				},
+				{
+					"choix": "La folie",
+					"score": 1
+				},
+				{
+					"choix": "La mort",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Que dit Vaas en anglais ?",
+			"reponses":
+			[
+				{
+					"choix": "Did I tell you the definition of insanity",
+					"score": 0
+				},
+				{
+					"choix": "Did I ever tell you the definition of insanity",
+					"score": 1
+				},
+				{
+					"choix": "Did I tell you the real definition of insanity",
+					"score": 0
+				},
+				{
+					"choix": "Did I ever tell you the real definition of insanity",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment s'appelle l'ennemi principal de Farcry 4 ?",
+			"reponses":
+			[
+				{
+					"choix": "Pagan Min",
+					"score": 1
+				},
+				{
+					"choix": "Pagain Min",
+					"score": 0
+				},
+				{
+					"choix": "Pagai Min",
+					"score": 0
+				},
+				{
+					"choix": "Pagai Man",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Quel personnage contrôlez-vous dans le FarCry4 ?",
+			"reponses":
+			[
+				{
+					"choix": "Ajay Ghale",
+					"score": 1
+				},
+				{
+					"choix": "Apay Ghile",
+					"score": 0
+				},
+				{
+					"choix": "Hurk",
+					"score": 0
+				},
+				{
+					"choix": "Hulk",
+					"score": 0
+				}
+			]
+		},
+		{
+			"question": "Comment s'appelle le couteau inséré dans le jeu ?",
+			"reponses":
+			[
+				{
+					"choix": "Le Kuri",
+					"score": 0
+				},
+				{
+					"choix": "Le Kiri",
+					"score": 0
+				},
+				{
+					"choix": "Le Kuriki",
+					"score": 0
+				},
+				{
+					"choix": "Le Kukri",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Comment s'appelle l'armée qui est contre l'ennemi principal de l'histoire ?",
+			"reponses":
+			[
+				{
+					"choix": "Sentier d'or",
+					"score": 0
+				},
+				{
+					"choix": "Sentier d'argent",
+					"score": 0
+				},
+				{
+					"choix": "Sentier comme une rivière",
+					"score": 0
+				},
+				{
+					"choix": "Les sentiers battuts",
+					"score": 1
+				}
+			]
+		},
+		{
+			"question": "Quels sont les deux animaux principaux de FarCry4 ?",
+			"reponses":
+			[
+				{
+					"choix": "L'éléphant et le chimpanzé",
+					"score": 0
+				},
+				{
+					"choix": "Le crocodile et la truite",
+					"score": 0
+				},
+				{
+					"choix": "Le Rhinoceros et le tigre",
+					"score": 0
+				},
+				{
+					"choix": "L'éléphant et le tigre",
+					"score": 1
+				}
+			]
+		}
+	]
+}

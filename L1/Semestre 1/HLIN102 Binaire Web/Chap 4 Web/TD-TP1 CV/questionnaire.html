@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Questionnaire Cuisine</title>
+	</head>
+
+  <body>
+	<h1>Questionnaire sur l'entreprise</h1>
+	<hr id="bigline">
+    <h2>Bienvenue dans ce questionnaire qui a pour but de renseigner des informations sur votre entreprise</h2> <br> <br>
+	<hr>
+    <form method="post" action="traitement.php"> 
+      <p><ol>
+        <li><label for="Nom de la Société">Indiquez le nom de la société :</label>
+        <input placeholder="Microsoft" type="text" name="Nom de la Société"/></li> <br>
+		
+		<li><label for="Nombre de salariés">Indiquez le nombre de salariés de la société :</label>
+		<input placeholder="10? 20? 50? 100?" type="number" name="Nombre de salariés"/></li> <br>
+		
+		<li><label for="Horaire d'ouverture">Indiquez l'heure d'ouverture et de fermeture de bureau :</label>
+		<input type="time" name="Heure d'Ouverture"/>
+		<label for="Horaire de Fermeture"> </label>
+		<input type="time" name="Heure de Fermeture"/></li> <br>
+		
+		<li><label for="Mois d'ouverture">Depuis quand est ouvert votre société ? :</label>
+		<input type="month" name="Mois d'Ouverture"/> </li> <br>
+		
+		<li><label for="Clients">Indiquez la nationalité de vos clients</label><br>
+        <input type="checkbox" name="Clients"/>Français<br>
+		<input type="checkbox" name="Clients"/>Européens<br>
+		<input type="checkbox" name="Clients"/>Etrangers</li> <br>
+		
+		<li><label for="Clients">Indiquez la fourchette de rémunération</label><br>
+		<input type="radio" value="10-20" name="Rémunération"/> <label for="10-20">10 000 à 20 000 €<br>
+		<input type="radio" value="20-30" name="Rémunération"/> <label for="20-30">20 000 à 30 000 € <br>
+		<input type="radio" value="30-40" name="Rémunération"/> <label for="30-40">30 000 à 40 000 € <br>
+		<input type="radio" value="40-50" name="Rémunération"/> <label for="40-50">40 000 à 50 000 € <br>
+		<input type="radio" value="50-60" name="Rémunération"/> <label for="50-60">50 000 à 60 000 €</li> <br>
+		
+		<li><label for="langue">Quel langue étrangère est-il nécéssaire de connaitre en priorité ?</label><br>
+		<select name="langue">
+			<option value="anglais">Anglais</option>
+			<option value="espagnol">Espagnol</option>
+			<option value="allemand">Allemand</option>
+			<option value="italien">Italien</option>
+			<option value="chinois">Chinois</option>
+		</select>
+		</ol></p>
+    </form>
+
+  </body>
+</htlm>

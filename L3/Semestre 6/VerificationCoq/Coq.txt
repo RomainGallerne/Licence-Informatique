@@ -1,0 +1,32 @@
+Règle LK 	| 	Tactique Coq
+---------------L J-----------------------
+ax 		| 	assumption
+cut 		| 	cut
+⇒right 		| 	intro
+⇒left 		| 	apply
+⇔right 		| 	split
+⇔lefti 		| 	elim
+∧right 		| 	split
+∧left 		| 	elim
+∨right1 	| 	left
+∨right2 	| 	right
+∨left 		| 	elim
+¬right 		| 	intro
+¬left 		| 	elimtype False + apply
+Tright,⊥left 	| 	auto
+∀right 		| 	intro
+∀left 		| 	apply
+∃right 		| 	exists
+∃left 		| 	elim
+---------------E Q----------------------
+refl 		| 	reflexivity
+=right1 	| 	rewrite <- id
+=right2 	| 	rewrite id
+=left1 		| 	rewrite <- in id
+=left2 		| 	rewrite in id
+------------- Calcul -------------------
+calcul		|	simpl.
+induction sur n	|	induction n. / intro;elim n.
+
+
+

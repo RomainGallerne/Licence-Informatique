@@ -1,0 +1,61 @@
+h1{font-weight: bold;
+   color: rgb(0, 60, 160); 
+   text-align: center; 
+   font-size: 48px;
+   }
+
+h2{
+  font-weight: bold;
+  color: rgb(0, 108, 227); 
+  font-size: 36px;
+  }
+
+div{
+  display: inline;
+  }
+
+table {
+  border: medium solid white; 
+  border-collapse: collapse; 
+  width: 50%;
+  }
+
+td {
+  border: thin solid white; 
+  width: 50%;
+  }
+
+.info{
+  text-decoration: underline;
+   color: white;
+   }
+
+.decale{
+  text-indent: 1em;
+  }
+
+.mail{
+  color: rgb(83, 165, 255);
+  }
+
+#box{
+  color: white;
+	display: block;
+	width: 90%;
+	height: 95%;
+	margin-left: 5%;
+	border: 5px solid white;
+	background-color: rgb(27, 27, 27) }
+
+#bigline{
+  height: 2px;
+  background-color: white;
+  }
+
+#photo {
+	width: 130px;
+	height: 130px;
+	float: right;
+	margin-right: 5%;
+	margin-top: 7px;
+	border: 2px solid white}
